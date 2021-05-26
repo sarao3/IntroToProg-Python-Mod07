@@ -13,12 +13,12 @@ The following steps outline an example of how to use the Try Except block to han
 
 1)	The Try block is the first component, which tests a block of code for errors. In Figure 1, the block of code between lines 49 and 56 will be tested for errors. 
 
-![**Figure 1:** An example of a Try block with code from Module 5.](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Assignment07_Figure1.png "**Figure 1:** An example of a Try block with code from Module 5.")  
+![**Figure 1:** An example of a Try block with code from Module 5.](docs/Assignment07_Figure1.png "**Figure 1:** An example of a Try block with code from Module 5.")  
 **Figure 1:** An example of a Try block with code from Module 5.
 
 2)	Once the block of code defined with the Try block has been written, a programmer can define within the Except block how to handle and communicate the error. In Figure 2, this can be demonstrated by using a specific built-in Python error called IndexError followed by printing both a custom error message (line 59 in Figure 2) and Python built-in error message (line 61 in Figure 2). Figure 2 also demonstrates that a programmer can include many exception blocks as they want. This is shown by including the non-specific error handling on lines 62 to 65 in Figure 2.
 
-![**Figure 2:** An example of a Try Except block with both a specific error handling (IndexError) and non-specific error handling (Exception).](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Assignment07_Figure2.png "**Figure 2:** An example of a Try Except block with both a specific error handling (IndexError) and non-specific error handling (Exception)")  
+![**Figure 2:** An example of a Try Except block with both a specific error handling (IndexError) and non-specific error handling (Exception).](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Assignment07_Figure2.png "**Figure 2:** An example of a Try Except block with both a specific error handling (IndexError) and non-specific error handling (Exception).")  
 **Figure 2:** An example of a Try Except block with both a specific error handling (IndexError) and non-specific error handling (Exception). 
 
 ## Pickling in Python
@@ -36,7 +36,7 @@ The following steps outline an example of how to use the Pickling method within 
 
 3)	The next section of code converts the dicObj Python object into a byte or character stream and saves it to a file called PicklingExample1.dat. The “ab” in the Open function denotes that the data will be appended in a binary format. The pickle.dump() is the function used to serializes the data into the PicklingExample1.dat file.
 
-![The object and file are the two parameters passed into the pickle.dump() function.](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Assignment07_Figure5.png "**Figure 5:** The object and file are the two parameters passed into the pickle.dump() function")  
+![The object and file are the two parameters passed into the pickle.dump() function.](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Assignment07_Figure5.png "**Figure 5:** The object and file are the two parameters passed into the pickle.dump() function.")  
 **Figure 5:** The object and file are the two parameters passed into the pickle.dump() function.
 
 4)	The final section of the illustrates how to reverse what was done in step 3 and read the data back into Python. This is accomplished by using the “rb” when the .dat file is opened and using the pickle.load() function to de-serialize the data back to its original contents. 
