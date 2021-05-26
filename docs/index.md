@@ -13,7 +13,7 @@ The following steps outline an example of how to use the Try Except block to han
 
 1)	The Try block is the first component, which tests a block of code for errors. In Figure 1, the block of code between lines 49 and 56 will be tested for errors. 
 
-![**Figure 1:** An example of a Try block with code from Module 5.](/docs/Assignment07_Figure1.png "**Figure 1:** An example of a Try block with code from Module 5.")  
+![**Figure 1:** An example of a Try block with code from Module 5.](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Assignment07_Figure1.png "**Figure 1:** An example of a Try block with code from Module 5.")  
 **Figure 1:** An example of a Try block with code from Module 5.
 
 2)	Once the block of code defined with the Try block has been written, a programmer can define within the Except block how to handle and communicate the error. In Figure 2, this can be demonstrated by using a specific built-in Python error called IndexError followed by printing both a custom error message (line 59 in Figure 2) and Python built-in error message (line 61 in Figure 2). Figure 2 also demonstrates that a programmer can include many exception blocks as they want. This is shown by including the non-specific error handling on lines 62 to 65 in Figure 2.
