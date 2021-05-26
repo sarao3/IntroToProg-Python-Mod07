@@ -26,7 +26,7 @@ The following steps outline an example of how to use the Pickling method within 
 
 1)	First, import the Pickle module, which will bring in code from another code file.
 
-![The pickle module is imported into the current working Python script.](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Assignment07_Figure3.png "**Figure 3:** The pickle module is imported into the current working Python script.")  
+![The pickle module is imported into the current working Python script.](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Figure3.png "**Figure 3:** The pickle module is imported into the current working Python script.")  
 **Figure 3:** The pickle module is imported into the current working Python script.  
 
 2)	In this example, dictionary items are added to a Python object.
