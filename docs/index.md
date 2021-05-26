@@ -1,4 +1,4 @@
-*Sara O’Neal*  
+*Sara O*  
 *May 25, 2021*  
 *Foundations of Python Programming (IT FDN 110 A)*  
 *Assignment 07*
