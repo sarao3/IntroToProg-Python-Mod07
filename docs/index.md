@@ -41,7 +41,7 @@ The following steps outline an example of how to use the Pickling method within 
 
 4)	The final section of the illustrates how to reverse what was done in step 3 and read the data back into Python. This is accomplished by using the “rb” when the .dat file is opened and using the pickle.load() function to de-serialize the data back to its original contents. 
 
-![The pickle.load() function is used to read the data back into Python.](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Assignment07_Figure6.png "**Figure 6:** The pickle.load() function is used to read the data back into Python.")  
+![The pickle.load() function is used to read the data back into Python.](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Figure6.png "**Figure 6:** The pickle.load() function is used to read the data back into Python.")  
 **Figure 6:** The pickle.load() function is used to read the data back into Python.
 
 ## Summary
