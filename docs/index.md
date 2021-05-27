@@ -36,7 +36,7 @@ The following steps outline an example of how to use the Pickling method within 
 
 3)	The next section of code converts the dicObj Python object into a byte or character stream and saves it to a file called PicklingExample1.dat. The “ab” in the Open function denotes that the data will be appended in a binary format. The pickle.dump() is the function used to serializes the data into the PicklingExample1.dat file.
 
-![The object and file are the two parameters passed into the pickle.dump() function](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Figure5.png "The object and file are the two parameters passed into the pickle.dump() function")  
+![The object and file are the two parameters passed into the pickle.dump() function](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Image5.jpeg "The object and file are the two parameters passed into the pickle.dump() function")  
 **Figure 5:** The object and file are the two parameters passed into the pickle.dump() function.
 
 4)	The final section of the illustrates how to reverse what was done in step 3 and read the data back into Python. This is accomplished by using the “rb” when the .dat file is opened and using the pickle.load() function to de-serialize the data back to its original contents. 
