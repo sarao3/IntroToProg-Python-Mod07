@@ -31,7 +31,7 @@ The following steps outline an example of how to use the Pickling method within 
 
 2)	In this example, dictionary items are added to a Python object.
 
-![The dicObj variable is used to capture the dictionary items within a Python object](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Figure4.png "The dicObj variable is used to capture the dictionary items within a Python object")  
+![The dicObj variable is used to capture the dictionary items within a Python object](https://github.com/sarao3/IntroToProg-Python-Mod07/blob/main/docs/Image4.jpeg "The dicObj variable is used to capture the dictionary items within a Python object")  
 **Figure 4:** The dicObj variable is used to capture the dictionary items within a Python object.
 
 3)	The next section of code converts the dicObj Python object into a byte or character stream and saves it to a file called PicklingExample1.dat. The “ab” in the Open function denotes that the data will be appended in a binary format. The pickle.dump() is the function used to serializes the data into the PicklingExample1.dat file.
